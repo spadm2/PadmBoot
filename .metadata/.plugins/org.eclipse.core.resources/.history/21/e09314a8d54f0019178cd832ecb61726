@@ -1,0 +1,5 @@
+package com.bluedart.location.controller;
+
+public class LocationRestController {
+
+}

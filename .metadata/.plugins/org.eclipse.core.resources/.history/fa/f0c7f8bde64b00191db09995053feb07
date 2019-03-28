@@ -1,0 +1,9 @@
+package com.bluedart.location.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.bluedart.location.entity.Location;
+
+public interface LocationRepository extends CrudRepository<Location, Integer> {
+	
+}

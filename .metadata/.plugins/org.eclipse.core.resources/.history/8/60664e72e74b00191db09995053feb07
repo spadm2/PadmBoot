@@ -1,0 +1,42 @@
+package com.bluedart.location.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bluedart.location.entity.Location;
+import com.bluedart.location.repository.LocationRepository;
+
+public class LocationServicesImpl implements LocationServices {
+	@Autowired
+	private LocationRepository locationRepository;
+
+	@Override
+	public Location addLocation(Location location) {
+		return locationRepository.save(location);
+	}
+
+	@Override
+	public Location updateLocation(Location location) {
+		return locationRepository.save(location);
+	}
+
+	@Override
+	public void deleteLocation(Location location) {
+		locationRepository.delete(location);
+	}
+
+	@Override
+	public Optional<Location> getLocationById(int id) {
+		
+		return locationRepository.findById(id);
+	}
+
+	@Override
+	public List<Location> getAllLocation() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/boot/spring-boot/2.0.2.RELEASE/spring-boot-2.0.2.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.2.RELEASE/spring-boot-autoconfigure-2.0.2.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/spring-expression/5.0.6.RELEASE/spring-expression-5.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/spring-jcl/5.0.6.RELEASE/spring-jcl-5.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.2.RELEASE/spring-boot-starter-2.0.2.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.2.RELEASE/spring-boot-starter-logging-2.0.2.RELEASE.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+  <path value="C:/Users/Padm/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="13" name="%0" offset="336" path="%1"/>
+   <linked-el length="11" name="%2" offset="292" path="%1"/>
+   <linked-el length="13" name="%3" offset="387" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="tankType" value="%0"/>
+  <alias path="tankNo" value="%2"/>
+  <alias path="/boot-basic/src/main/java/com/bb/bean/FualTank.java" value="%1"/>
+  <alias path="capacity" value="%3"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

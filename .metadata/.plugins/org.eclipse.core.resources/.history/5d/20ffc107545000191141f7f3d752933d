@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="cycle" class="com.innerbean.beans.ByCycle">
+	<property name="manifacture" value="Atles"/>
+	<property name="id" value="8989"/>
+	<property name="chain">
+		<bean class="com.innerbean.beans.Chain">
+			<property name="cno" value="899"/>
+			<property name="type" value="steel"/>
+		</bean>
+	</property>
+</bean>
+</beans>

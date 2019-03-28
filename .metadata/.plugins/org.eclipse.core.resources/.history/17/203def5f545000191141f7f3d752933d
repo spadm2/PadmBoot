@@ -1,0 +1,5 @@
+package com.bb.account;
+
+public class AccountDetails {
+
+}

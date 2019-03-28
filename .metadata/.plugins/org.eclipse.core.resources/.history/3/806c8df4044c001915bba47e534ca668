@@ -1,0 +1,6 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/boot
+spring.datasource.username=root
+spring.datasource.password=manager
+spring.jpa.show-sql=true
+spring.mvc.view.prefix=/resources/jsps/
+spring.mvc.view.suffix=.jsp

@@ -1,0 +1,11 @@
+package com.bluedart.location.util;
+
+public class EmailUtilImpl implements EmailUtil {
+
+	@Override
+	public void sendMail(String toAddress, String body, String subject) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

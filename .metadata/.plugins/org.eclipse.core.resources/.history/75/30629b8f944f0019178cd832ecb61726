@@ -1,0 +1,13 @@
+package com.bb.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.bb.bean.FualTank;
+import com.bb.bean.MoterEngine;
+
+@Configuration
+@ComponentScan(basePackageClasses= {MoterEngine.class,FualTank.class})
+public class JavaConfig {
+
+}

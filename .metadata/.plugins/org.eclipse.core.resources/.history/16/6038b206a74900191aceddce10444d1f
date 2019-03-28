@@ -1,0 +1,28 @@
+package com.first.demo;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.first.demo.dao.StudentDao;
+import com.first.demo.dao.StudentsBo;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class StudentDemoApplicationTests {
+	@Autowired
+	StudentDao studentdao;
+	
+	@Test
+	public void contextLoads() {
+		StudentsBo sb = new StudentsBo();
+		sb.setStudentName("jogi");
+		sb.setSubject("java");
+		sb.setStudentNo(10L);
+		student
+		studentdao.save(sb);
+	}
+
+}

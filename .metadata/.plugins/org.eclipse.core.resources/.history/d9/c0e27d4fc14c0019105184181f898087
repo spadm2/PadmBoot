@@ -1,0 +1,37 @@
+package com.bluedart.location.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.bluedart.location.entity.Location;
+import com.bluedart.location.services.LocationServices;
+
+@Controller
+public class LocationController {
+	@Autowired
+	private LocationServices locationService;
+	private Location addLocation;
+	
+	@RequestMapping("/show-page")
+	public String randerPage() {
+		return "create-location";
+	}
+	@RequestMapping("/add-location")
+	public String saveLocation(@ModelAttribute("location") Location location,ModelMap model) {
+		addLocation = locationService.addLocation(location);
+		String message = addLocation.getId()+" has Added";
+		model.addAttribute("message", message);
+		return "create-location";
+	}
+	@RequestMapping("/show-locations")
+	public String showAllLocation(ModelMap map) {
+		List<Location> allLocation = locationService.getAllLocation();
+		map.addAttribute("locations", allLocation);
+		return "display-location";
+	}
+}

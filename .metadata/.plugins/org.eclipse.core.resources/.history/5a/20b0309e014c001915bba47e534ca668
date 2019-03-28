@@ -1,0 +1,16 @@
+package com.bluedart.location.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class LocationController {
+	@RequestMapping("/show-page")
+	public String randerPage() {
+		return "create-location";
+	}
+	@RequestMapping("/add-location")
+	public String saveLocation() {
+		
+	}
+}

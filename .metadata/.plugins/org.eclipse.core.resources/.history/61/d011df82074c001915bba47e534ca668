@@ -1,0 +1,17 @@
+package com.bluedart.location;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+import com.bluedart.location.controller.LocationController;
+
+@SpringBootApplication
+@ComponentScan(basePackageClasses= {LocationController.class})
+public class LocationWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LocationWebApplication.class, args);
+	}
+
+}

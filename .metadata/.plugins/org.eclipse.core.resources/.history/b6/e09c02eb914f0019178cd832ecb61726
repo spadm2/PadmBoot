@@ -1,0 +1,14 @@
+package com.bb.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class MoterEngine {
+	@Autowired
+	protected FualTank fualTank;
+
+	@Override
+	public String toString() {
+		return "MoterEngine [fualTank=" + fualTank + "]";
+	}
+	
+}

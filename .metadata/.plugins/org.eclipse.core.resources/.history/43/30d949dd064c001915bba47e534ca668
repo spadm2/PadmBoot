@@ -1,0 +1,17 @@
+package com.bluedart.location.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.bluedart.location.entity.Location;
+
+/*
+ * public interface LocationRepository extends CrudRepository<Location, Integer>
+ * {
+ * 
+ * }
+ */
+@Repository
+public interface LocationRepository extends JpaRepository<Location, Integer>{
+	
+}

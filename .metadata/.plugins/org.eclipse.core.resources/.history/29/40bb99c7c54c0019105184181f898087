@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/edit-complete-location" method="post">
+		Location Id<input type="text" name="id" value="${locations.id}" disabled="disabled"><br>
+		Location Code<input type="text" name="code" value="${locations.code}"><br>
+		Name Of Location<input type="text" name="name" value="${locations.code}"><br>
+		Type Of Location:<input type="radio" name="type" value="city" checked="checked">City<input type="radio" name="type" value="metro">Metro<input type="radio" name="type" value="village">Village<br>
+		<input type="submit" value="Add">
+	</form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.bluedart.location.util;
+
+public class EmailUtil {
+
+}

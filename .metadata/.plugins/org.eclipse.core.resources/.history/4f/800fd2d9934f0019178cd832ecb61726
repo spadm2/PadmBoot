@@ -1,0 +1,24 @@
+package com.bb.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MoterEngine {
+	@Autowired
+	protected FualTank fualTank;
+
+	public FualTank getFualTank() {
+		return fualTank;
+	}
+
+	public void setFualTank(FualTank fualTank) {
+		this.fualTank = fualTank;
+	}
+
+	@Override
+	public String toString() {
+		return "MoterEngine [fualTank=" + fualTank + "]";
+	}
+	
+}

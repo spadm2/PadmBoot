@@ -1,0 +1,5 @@
+package com.bluedart.location.entity;
+
+public class Location {
+
+}
